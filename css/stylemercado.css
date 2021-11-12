@@ -1,0 +1,113 @@
+* {padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  body {
+    background-color: white; 
+    width: 100%;
+  }
+
+.informacion {
+  width: 85%;
+  margin: 100px auto;
+}
+
+.informacion h1 {
+  color: #EF7F4B;
+  margin: 20px 0;
+  font-family: 'Spartan', sans-serif;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.informacion p {
+  color: #000000;
+  font-family: 'Spartan', sans-serif;
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+.cont{
+	width: 100%;
+	height: auto;
+	background-color: #0CAE9E;
+	display: inline-block;
+  justify-content: left;
+  align-items: left;
+  padding: 20px;
+}
+
+.cedla1, .cedla2, .cedla3{
+	width: 400px;
+	height: auto;
+	margin: 5px 15px;
+}
+
+.abajo {
+  width: 100px;
+}
+
+.ins {
+  width: 30px;
+}
+
+.cedla1 i {
+  font-size: 25px;
+}
+
+.cedla1 li {
+  list-style: none;
+  display: inline;
+}
+
+.cedla3 p {
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.cedla3 {
+  text-align: left;
+  color: #ffffff;
+
+}
+.cedla3 h6 {
+  font-size: 8px;
+  font-family: 'Spartan', sans-serif;
+}
+
+.imagenes{
+  width: 100%;
+  margin: 1em auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  width: 40%;
+  padding-bottom: 3%; /* Same as width, sets height */
+  margin: 1%;
+}
+
+.cards {
+    box-sizing: border-box;
+    justify-content: center;
+    z-index: 0;
+    display: flex;
+  }
+  
+  .item{
+    padding: 30px;
+    padding-top: 10px;
+    width: 430px;
+  }

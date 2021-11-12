@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRINCIPE CONEJO</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/styleinicio.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href= "imgs/corona.jpg">
+    <link rel="stylesheet" href="css/lightbox.css">
+  </head>
+
+
+<body>
+    <!--navegador-->
+    <header class="cd-auto-hide-header">
+    
+        <nav class="cd-primary-nav">
+            <a href="#cd-navigation" class="nav-trigger">
+                <span>
+                    <em aria-hidden="true"></em>
+                    Menu
+                </span>
+            </a> <!-- .nav-trigger -->
+    
+            <ul id="cd-navigation">
+                <li><a href="inicio.html">INICIO</a></li>
+                <li><a href="huerta.html">HUERTA</a></li>
+                <li><a href="mercado.html">MERCADO</a></li>
+            </ul>
+        </nav> <!-- .cd-primary-nav -->
+    </header> <!-- .cd-auto-hide-header -->
+
+  <div class="informacion">
+    <div class="titulo">
+      <h1>BIENVENIDOS</h1>
+    </div>
+    <div class="subtitulo">
+         <h2>Tierra príncipe conejo
+          Donde hay amor en nuestras siembras, hay magia en la cosecha, <br>y alimentos llenos de vida, sabor y color.<br>
+          <a href="https://api.whatsapp.com/send?phone=573014079714&text=hola!%20%C2%BFcomo%20estas%3F%2C%20mi%20nombre%20es%20Astrid%2C%20para%20mi%20ser%C3%A1%20un%20gusto%20atenderte.%20por%20favor%20deja%20tu%20nombre%20y%20te%20responder%C3%A9%20tan%20pronto%20vea%20tu%20mensaje%20%F0%9F%90%B0%E2%9C%A8">¡Contactanos aquí!</a></li>
+          </h2>
+    </div>
+
+    <!-- Swiper -->
+     <!-- Swiper -->
+     <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="imgs/acelgas.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="imgs/lulo.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="imgs/pepino.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="imgs/tomate.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="imgs/zanao.jpg" alt=""></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+  
+
+    <div class="parrafo">
+      <h2>¿Quiénes somos?</h2>
+      <p>No somos una fundación sin ánimo de
+        lucro, somos una empresa privada que
+        damos trabajos a personas que realmente lo
+        necesiten, en nuestro proyecto trabajamos
+        en la conservación del suelo.
+        Nos damos la tarea de reforestar árboles
+        para tener un trabajo digno con la sociedad.<br>
+        <a href="https://www.instagram.com/tierraprincipeconejo/?hl=es">Conoce más</a></li>
+        </p>
+    </div>
+  </div>
+
+  <div class="imagenes">
+
+    <div class="item">
+        <a href="ima/hoja.jpg" data-lightbox="roadtrip"><img src="ima/hoja.jpg" alt="mar"></a>
+    </div>
+    <div class="item">
+        <a href="ima/cosa.jpg" data-lightbox="roadtrip"><img src="ima/cosa.jpg" alt="lago"></a>
+    </div>
+    <div class="item">
+        <a href="ima/hojas.jpg" data-lightbox="roadtrip"><img src="ima/hojas.jpg" alt="paisaje"></a>
+    </div>
+    <div class="item">
+        <a href="ima/planta.jpg" data-lightbox="roadtrip"><img src="ima/planta.jpg" alt="laguna"></a>
+    </div>
+  </div>
+  
+<div class="cont">
+	<div class="cedla1">
+     <ul>
+       <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+       <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+       <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+       <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+ </ul> 
+</div>
+
+<div class="pie">
+	<div class="cedla2"><img class="abajo" src="imgs/logo positivo.png">
+</div>
+	
+  <div class="cedla3">
+    <p>Camila Ravelo T.G. Del Diseño Gráfico</p>
+  </div>
+	<div class="cedla2"><a href="https://www.instagram.com/tierraprincipeconejo/?hl=es"><img class="ins" src="imgs/instagram-logo-branco.png"></a>
+  </div>
+</div>
+
+<!--Javascript-->    
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+        type: "fraction",
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+
+ <!--fin slider-->
+ <!-- .cd-main-content -->
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script>
+	if( !window.jQuery ) document.write('<script src="js/jquery-3.0.0.min.js"><\/script>');
+</script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+<script src="js/lightbox.js"></script>
+
+</body>
+</html>

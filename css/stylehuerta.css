@@ -1,0 +1,184 @@
+* {padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  body {
+    background-color: white; 
+    width: 100%;
+  }
+
+  /* slider */
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+  }
+
+.informacion {
+  width: 85%;
+  margin: 100px auto;
+}
+
+.informacion h1 {
+  color: #EF7F4B;
+  margin: 20px 0;
+  font-family: 'Spartan', sans-serif;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.informacion h2 {
+  color: #000000;
+  font-family: 'Spartan', sans-serif; 
+  font-weight: 400;
+  width: 75%;
+  font-size: 16px;
+  margin: 10px auto;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.informacion h2 a {
+  color: #EF7F4B;
+  font-family: 'Spartan', sans-serif;
+  width: 75%;
+  text-align: center;
+}
+
+.informacion h2 a:hover {
+  color: #c55019;
+  font-family: 'Spartan', sans-serif;
+  width: 75%;
+  font-size: 16px;
+  text-align: center;
+}
+
+.informacion p {
+  color: #000000;
+  font-family: 'Spartan', sans-serif;
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 16px;
+}
+.informacion p a {
+  color: #EF7F4B;
+  font-family: 'Spartan', sans-serif;
+  width: 75%;
+  text-align: center;
+}
+
+.informacion p a:hover {
+  color: #c55019;
+  font-family: 'Spartan', sans-serif;
+  width: 75%;
+  font-size: 16px;
+  text-align: center;
+}
+
+.parrafo h2 {
+  color: #000000;
+  font-family: 'Spartan', sans-serif; 
+  font-weight: 400;
+  width: 75%;
+  font-size: 16px;
+  margin: 10px auto;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.cont{
+	width: 100%;
+	height: auto;
+	background-color: #0CAE9E;
+	display: inline-block;
+  justify-content: left;
+  align-items: left;
+  padding: 20px;
+}
+
+.cedla1, .cedla2, .cedla3{
+	width: 400px;
+	height: auto;
+	margin: 5px 15px;
+}
+
+.abajo {
+  width: 100px;
+}
+
+.ins {
+  width: 30px;
+}
+
+.cedla1 i {
+  font-size: 25px;
+}
+
+.cedla1 li {
+  list-style: none;
+  display: inline;
+}
+
+.cedla3 p {
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.cedla3 {
+  text-align: left;
+  color: #ffffff;
+
+}
+.cedla3 h6 {
+  font-size: 8px;
+  font-family: 'Spartan', sans-serif;
+}
+
+.imagenes{
+  width: 100%;
+  margin: 1em auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  width: 40%;
+  padding-bottom: 3%; /* Same as width, sets height */
+  margin: 1%;
+}
